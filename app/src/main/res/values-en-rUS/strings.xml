@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Đồ án đặt khách sạn online app Android</string>
+    <string name="DangNhap">Log in</string>
+    <string name="Username">Enter Username</string>
+    <string name="Password">Enter Password</string>
+    <string name="Login">Login</string>
+    <string name="QuenMatKhau">Forgot Password</string>
+    <string name="TroGiup">Help</string>
+    <string name="BanCoTaiKhoangChua">" Do you already have an account?"</string>
+    <string name="DangKi">Register</string>
+    <string name="Thoat">Exit</string>
+    <string name="DangKiHeThong">Register in</string>
+    <string name="Gmail">Enter Gmail</string>
+    <string name="NhapSoDT">Enter Phone Number</string>
+    <string name="NhapUsernName">Enter Username</string>
+    <string name="NhapPassWord">Enter Password</string>
+    <string name="NhapLaiPassWord">Enter Password again</string>
+    <string name="DangKyTaiKhoan">Register</string>
+    <string name="QuayLaiTrangDangNhap">Login again</string>
+    <string name="todo">ToDo</string>
+    <string name="MoTaID">" Describe"</string>
+    <string name="todo1">ToDo</string>
+    <string name="todo2">ToDo</string>
+    <string name="th_m_c">Folder</string>
+    <string name="NhungKhachSanNoiTieng">FAMOUS HOTEL</string>
+</resources>

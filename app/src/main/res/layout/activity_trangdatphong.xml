@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bien">
+
+    <TextView
+        android:textColor="#f00"
+        android:background="@drawable/custom_title_dat_phong"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Chào mừng bạn đến với trang đặt phòng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/ks1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"></ImageView>
+    <EditText
+        android:textColorHint="#000000"
+        android:id="@+id/ChonNgayOID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:hint="Nhập Ngày Ở"
+        android:textSize="20sp"
+        android:textStyle="bold"></EditText>
+    <EditText
+        android:textColorHint="#000000"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ChonNgayOID"
+        android:hint="Nhập Ngày Đi"
+        android:id="@+id/ChonNgayDi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColorHint="#ff0"
+        android:id="@+id/IdNhapHoTen"
+        android:hint="Nhập Họ Tên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:inputType="phone"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColorHint="#ff0"
+        android:id="@+id/IdNhapSoDienThoai"
+        android:hint="Nhập Số Điện Thoại"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:inputType="phone"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColorHint="#ff0"
+        android:id="@+id/IdNhapCCCD"
+        android:hint="Nhập Số CMND/CCCD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/IdHienThiThoiGianO"
+        android:textSize="20sp"
+        android:text="Thông báo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginStart="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/IdHoTen"
+        android:text="Họ Tên: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginStart="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/IdSDT"
+        android:text="SĐT: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginStart="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/IdCCCD"
+        android:text="CMND/CCCD: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginStart="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Giá Phòng 1.200.000/Đêm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/IdTinhTien"
+        android:textSize="20sp"
+        android:text="Tổng :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/IdDemNgayO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button"
+        android:text="Đặt Phòng"
+        android:textColor="#FFE500"
+        android:textSize="20sp"></Button>
+</LinearLayout>

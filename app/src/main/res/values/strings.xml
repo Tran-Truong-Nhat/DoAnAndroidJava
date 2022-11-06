@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Ruby Hotel</string>
+    <string name="DangNhap">ĐĂNG NHẬP HỆ THỐNG</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Đăng Nhập</string>
+    <string name="QuenMatKhau">Quên</string>
+    <string name="TroGiup">Trợ Giúp</string>
+    <string name="BanCoTaiKhoangChua">Bạn Có Tài Khoản Chưa?</string>
+    <string name="DangKi"><u>Đăng Kí</u></string>
+    <string name="Thoat">Thoát</string>
+    <string name="DangKiHeThong">ĐĂNG KÍ HỆ THỐNG</string>
+    <string name="Gmail">Nhập Gmail</string>
+    <string name="NhapSoDT">Nhập Số Điện Thoại</string>
+    <string name="NhapUsernName">Nhập Username</string>
+    <string name="NhapPassWord">Nhập Password</string>
+    <string name="NhapLaiPassWord">Nhập Lại Password</string>
+    <string name="DangKyTaiKhoan">Đăng Kí Tài Khoản</string>
+    <string name="QuayLaiTrangDangNhap">Quay Lại Trang Đăng Nhập</string>
+    <string name="todo">TODO</string>
+    <string name="MoTaID">Mô Tả</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="th_m_c">Thư Mục</string>
+    <string name="NhungKhachSanNoiTieng">NHỮNG KHÁCH SẠN NỔI TIẾNG</string>
+</resources>

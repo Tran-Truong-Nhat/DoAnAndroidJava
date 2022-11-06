@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKyTaiKhoanManactivity">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutDangKiHeThong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/DangKiHeThong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="@string/DangKiHeThong"
+            android:textColor="#FF9800"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Gmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DangKiHeThong"
+            android:layout_marginTop="80dp"
+            android:autofillHints=""
+            android:background="@drawable/custom_edittext"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:hint="@string/Gmail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#FFEB3B"
+            android:textSize="20sp"
+            tools:ignore="UnknownId" />
+
+        <EditText
+            android:id="@+id/NhapSoDT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Gmail"
+            android:background="@drawable/custom_edittext"
+            android:drawableStart="@drawable/ic_baseline_phone_android_24"
+            android:hint="@string/NhapSoDT"
+            android:inputType="number"
+            android:textColorHint="#FFEB3B"
+            android:textSize="20sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:background="@drawable/custom_edittext"
+            android:drawableStart="@drawable/ic_baseline_account_box_24"
+            android:id="@+id/NhapUsernName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NhapSoDT"
+            android:hint="@string/NhapUsernName"
+            android:textColorHint="#FFEB3B"
+            android:autofillHints=""
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/NhapPassWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NhapUsernName"
+            android:autofillHints=""
+            android:background="@drawable/custom_edittext"
+            android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+            android:hint="@string/NhapPassWord"
+            android:inputType="textPassword"
+            android:textColorHint="#FFEB3B" />
+
+        <EditText
+            android:id="@+id/NhapLaiPassWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NhapPassWord"
+            android:autofillHints=""
+            android:background="@drawable/custom_edittext"
+            android:drawableStart="@drawable/ic_baseline_assignment_ind_24"
+            android:hint="@string/NhapLaiPassWord"
+            android:inputType="textPassword"
+            android:textColorHint="#FFEB3B" />
+
+        <Button
+            android:id="@+id/DangKyTaiKhoan"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NhapLaiPassWord"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="63dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/DangKyTaiKhoan"
+            android:textColor="#ff0" />
+
+        <Button
+            android:id="@+id/QuayLaiTrangDangNhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DangKyTaiKhoan"
+            android:layout_marginStart="117dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="72dp"
+            android:background="@drawable/custom_button_simple"
+            android:text="@string/QuayLaiTrangDangNhap"
+            android:textColor="#FFE500"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
